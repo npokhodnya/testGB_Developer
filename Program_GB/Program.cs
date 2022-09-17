@@ -13,9 +13,9 @@
 }
 
 // Example
-string[] array2 = {"Russia", "n", "OOOOOI", ":-)"};
-var result2 = Filter(array2, 3);
-foreach (var item in result2) Console.Write($"{item} ");
+string[] array = {"Russia", "n", "OOOOOI", ":-)"};
+var result = Filter(array, 3);
+foreach (var item in result) Console.Write($"{item} ");
 
 // Output: 
 // n :-)
